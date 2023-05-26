@@ -10,10 +10,9 @@ function Navigation() {
                 HiBye
             </a>
             <div className={styles.navigation__links}>
-                <button className={styles.navigation__link} href="#!">Главная</button>
-                <button className={styles.navigation__link} href="#!">Услуги</button>
-                <button className={styles.navigation__link} href="#!">Технологии</button>
-                <button className={styles.navigation__link} href="#!">Контакты</button>
+                <button className={styles.navigation__link} href="#!">Преимущества</button>
+                <button className={styles.navigation__link} href="#!">Сравнение</button>
+                <button className={styles.navigation__link} href="#!">Создатели</button>
             </div>
 
         </div>

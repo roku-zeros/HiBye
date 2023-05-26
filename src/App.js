@@ -33,6 +33,7 @@ function App() {
                 />
                 <Contacts/>
                 <Table />
+                <Footer />
             </div>
         </div>
     );

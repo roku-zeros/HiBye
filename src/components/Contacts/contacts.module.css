@@ -7,9 +7,11 @@
     background-color: #151517;
     border-radius: 12px;
     margin-bottom: 6px;
-    background-image: url("../../assets/images/ContactsLogo.png");
+    background-image: url("../../assets/images/ContactsLogo.svg");
+    background-size: 70%;
+    background-position: 140%;
+
     background-repeat: no-repeat;
-    background-position: right;
     position: relative;
 }
 
