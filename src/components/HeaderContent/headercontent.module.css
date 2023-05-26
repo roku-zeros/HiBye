@@ -1,0 +1,44 @@
+header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 80px;
+}
+
+.header__button {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 52px;
+    border: 1px solid #CECECE;
+    border-radius: 6px;
+    margin-top: 40px;
+    padding: 0 26px;
+
+    color: #FFFFFF;
+    transition: background-color 0.2s, top 0.2s;
+}
+
+.header__button:hover {
+    background-color: white;
+    color: black;
+}
+
+.header__button:active {
+    position: relative;
+    top: 2px;
+}
+
+.header__img {
+    margin-inline: auto;
+    margin-top: 90px;
+    width: 718px;
+    height: 283px;
+    background-image: url('../../assets/images/macDark.png');
+    background-size: 100%;
+    transition: 0.5s;
+}
+
+.header__img:hover {
+    background-image: url("../../assets/images/macLight.png");
+}

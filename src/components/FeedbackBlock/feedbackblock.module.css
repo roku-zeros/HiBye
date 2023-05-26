@@ -1,0 +1,119 @@
+.block {
+    width: 100%;
+    height: 480px;
+    background: #151517;
+    border-radius: 12px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 106px;
+    position: relative;
+}
+
+.block:hover::before {
+    opacity: 20%;
+}
+
+.block::before {
+    background: radial-gradient(
+            800px circle at var(--mouse-x) var(--mouse-y),
+            rgba(180, 69, 255, 0.6),
+            transparent 60%
+    );
+    border-radius: inherit;
+    content: "";
+    height: 100%;
+    left: 0px;
+    opacity: 0;
+    position: absolute;
+    top: 0px;
+    transition: opacity 400ms;
+    width: 100%;
+    z-index: 2;
+}
+
+.block h1 {
+    font-family: "Arial", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 38px;
+    line-height: 110%;
+    margin-bottom: 40px;
+    position: relative;
+    z-index: 3;
+}
+
+.input__form {
+    margin-bottom: 40px;
+}
+
+.input__form input {
+    width: 363px;
+    height: 50px;
+    margin-right: 12px;
+    padding: 19px 16px;
+
+
+    border: 1px solid #8E8E8E;
+    border-radius: 6px;
+    font-family: "Arial", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    background-color: #151517;
+
+    color: white;
+    position: relative;
+    z-index: 3;
+    transition: 0.2s ease-in;
+}
+
+.input__form input::placeholder {
+    font-family: "Arial", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    display: flex;
+    align-items: center;
+    position: relative;
+    z-index: 3;
+    transition: 0.2s ease-in;
+
+    color: #999999;
+}
+
+.input__form input:focus {
+    border-color: white;
+}
+
+.input__form button {
+    padding: 0 20px;
+
+    width: 274px;
+    height: 52px;
+    background: white;
+    color: black;
+    border-radius: 6px;
+    position: relative;
+    z-index: 3;
+    transition: background-color 0.2s ease-in, top 0.2s ease-in;
+}
+
+.block p {
+    position: relative;
+    z-index: 3;
+}
+
+.input__form button:hover {
+    background: black;
+    color: white;
+    border: 1px solid #CECECE;
+}
+
+.input__form button:active {
+    position: relative;
+    top: 2px;
+}

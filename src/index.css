@@ -1,0 +1,14 @@
+body {
+    background-color: #000000;
+    color: #ffffff;
+}
+
+.container {
+    max-width: 1360px;
+    margin:0 auto;
+}
+
+code {
+    font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}

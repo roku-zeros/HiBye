@@ -1,0 +1,67 @@
+.service__card {
+    width: 335.5px;
+    height: 304px;
+    padding: 24px 20px;
+
+    border-radius: 12px;
+    background: #151517;
+    cursor: pointer;
+    position: relative;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.service__card:hover::before {
+    opacity: 20%;
+}
+
+.service__card:active::before {
+    opacity: 100%;
+}
+
+.service__card::before {
+    background: radial-gradient(
+            800px circle at var(--mouse-x) var(--mouse-y),
+            rgba(180, 69, 255, 0.6),
+            transparent 40%
+    );
+    border-radius: inherit;
+    content: "";
+    height: 100%;
+    left: 0px;
+    opacity: 0;
+    position: absolute;
+    top: 0px;
+    transition: opacity 400ms;
+    width: 100%;
+    z-index: 2;
+}
+
+.service__card__title {
+    margin-bottom: 90px;
+    position: relative;
+    z-index: 3;
+    transition: 0.2s;
+}
+
+.service__card__text {
+    position: relative;
+    z-index: 3;
+    transition: 0.2s;
+}
+
+.learn__more {
+    position: relative;
+    z-index: 3;
+    visibility: hidden;
+    opacity: 0%;
+    transition: 0.5s;
+    color: #cecece;
+}
+
+.service__card:hover .learn__more {
+    visibility: visible;
+    opacity: 100%;
+}

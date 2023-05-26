@@ -1,0 +1,94 @@
+@import "./reset.css";
+@font-face {
+    font-family: "Craftwork Grotesk Bold";
+    src: url("../fonts/CraftworkGrotesk-Bold.eot");
+    src: url("../fonts/CraftworkGrotesk-Bold.woff") format("woff"), url("../fonts/CraftworkGrotesk-Bold.ttf") format("truetype"), url("../fonts/CraftworkGrotesk-Bold.svg") format("svg");
+    font-weight: 700;
+    font-style: normal;
+}
+@font-face {
+    font-family: "Craftwork Grotesk Medium";
+    src: url("../fonts/CraftworkGrotesk-Medium.eot");
+    src: url("../fonts/CraftworkGrotesk-Medium.woff") format("woff"), url("../fonts/CraftworkGrotesk-Medium.ttf") format("truetype"), url("../fonts/CraftworkGrotesk-Medium.svg") format("svg");
+    font-weight: 500;
+    font-style: normal;
+}
+
+h1 {
+    font-family: 'Craftwork Grotesk Bold', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 112.5%;
+    /* or 72px */
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: -0.03em;
+
+    color: #B344FF;
+
+    background: linear-gradient(180deg, #FFB6FF 0%, #B344FF 100%, #B344FF 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+}
+
+h2 {
+    font-family: "Arial", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 38px;
+    line-height: 110%;
+    display: flex;
+    align-items: center;
+
+    color: #CECECE;
+}
+
+h3 {
+    font-family: "Arial", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 110%;
+    display: flex;
+    align-items: center;
+
+    color: #CECECE;
+}
+
+p {
+    font-family: "Arial", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 130%;
+    display: flex;
+    align-items: center;
+
+    color: #8E8E8E;
+}
+
+a {
+    font-family: 'Arial', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 18px;
+    letter-spacing: -0.0032em;
+    text-decoration-line: underline;
+
+    color: #CECECE;
+}
+
+button {
+    font-family: 'Arial', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+
+    color: #656565;
+    transition: 0.15s;
+}

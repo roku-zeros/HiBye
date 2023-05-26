@@ -1,0 +1,39 @@
+.block__image {
+    margin: 6px 0;
+    width: 100%;
+    height: 600px;
+    border-radius: 12px;
+    background-image: url("../../assets/images/MacGradient.png");
+    background-size: cover;
+}
+
+.block__content {
+    padding-top: 83px;
+    padding-left: 22px;
+}
+
+.block__content h2, p {
+    margin-bottom: 40px;
+}
+
+.learn__more__button {
+    padding: 0 20px;
+
+    width: 150px;
+    height: 52px;
+    background: white;
+    color: black;
+    border-radius: 12px;
+    transition: background-color 0.2s ease-in, top 0.2s ease-in;
+}
+
+.learn__more__button:hover {
+    background: black;
+    color: white;
+    border: 1px solid #CECECE;
+}
+
+.learn__more__button:active {
+    position: relative;
+    top: 2px;
+}
