@@ -10,18 +10,18 @@ header {
     font-weight: 400;
     font-size: 15px;
     line-height: 52px;
-    border: 1px solid #CECECE;
+    border: 1px solid #000000;
     border-radius: 6px;
     margin-top: 40px;
     padding: 0 26px;
 
-    color: #FFFFFF;
+    color: #000000;
     transition: background-color 0.2s, top 0.2s;
 }
 
 .header__button:hover {
-    background-color: white;
-    color: black;
+    background-color: black;
+    color: white;
 }
 
 .header__button:active {
@@ -32,11 +32,60 @@ header {
 .header__img {
     margin-inline: auto;
     margin-top: 90px;
-    width: 718px;
-    height: 283px;
-    background-image: url('../../assets/images/macDark.png');
-    background-size: 100%;
-    transition: 0.5s;
+    width: 715px;
+    height: 200px;
+    background-color: black;
+    display: flex;
+}
+
+.pink {
+    background-color: #FFB6FF;
+    width: 100%;
+    transition: 0.2s;
+}
+
+.pink:hover {
+    width: 1100px;
+}
+
+.purple {
+    background-color: #aa56f8;
+    width: 100%;
+    transition: 0.2s;
+}
+
+.purple:hover {
+    width: 1100px;
+}
+
+.red {
+    background-color: #9d16ff;
+    width: 100%;
+    transition: 0.2s;
+}
+
+.red:hover {
+    width: 1100px;
+}
+
+.orange {
+    background-color: #ff2492;
+    width: 100%;
+    transition: 0.2s;
+}
+
+.orange:hover {
+    width: 1100px;
+}
+
+.blue {
+    background-color: #dcbaff;
+    width: 100%;
+    transition: 0.2s;
+}
+
+.blue:hover {
+    width: 1100px;
 }
 
 .header__img:hover {

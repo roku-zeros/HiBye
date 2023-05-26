@@ -5,9 +5,15 @@ const HeaderContent = () => {
     return (
         <div>
             <header>
-                <h1>Аутсорс <br/> web-разработка</h1>
-                <button className={styles.header__button}>Заказать разработку</button>
-                <div className={styles.header__img}></div>
+                <h1>HiBye -<br/> знакомства на мероприятиях</h1>
+                <button className={styles.header__button}>Узнать больше</button>
+                <div className={styles.header__img}>
+                    <div className={styles.pink}></div>
+                    <div className={styles.purple}></div>
+                    <div className={styles.red}></div>
+                    <div className={styles.orange}></div>
+                    <div className={styles.blue}></div>
+                </div>
             </header>
         </div>
     );

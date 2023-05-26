@@ -61,8 +61,8 @@ const Table = () => {
                         <td>Ничего не</td>
                     </tr>
                 </table>
-
             </div>
+            <br/><br/>
         </div>
     );
 };
